@@ -12,7 +12,7 @@ public class Sport {
     private String name;
 
     @ManyToMany
-    Set<Sport> sport;
+    Set<Member> members;
 
     public Sport(){}
     public Integer getId() {
